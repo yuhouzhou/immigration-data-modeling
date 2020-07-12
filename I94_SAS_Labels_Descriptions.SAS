@@ -963,7 +963,7 @@ proc format library=library ;
 ;
 
 
-/* ARRDATE is the Arrival Date in the USA. It is a SAS date numeric field that a 
+/* ARRDATE - the Arrival Date in the USA. It is a SAS date numeric field that a 
    permament format has not been applied.  Please apply whichever date format 
    works for you. */
 
@@ -1035,7 +1035,7 @@ value i94addrl
 	'WY'='WYOMING' 
 	'99'='All Other Codes' ;
 
-/* DEPDATE is the Departure Date from the USA. It is a SAS date numeric field that 
+/* DEPDATE - the Departure Date from the USA. It is a SAS date numeric field that 
    a permament format has not been applied.  Please apply whichever date format 
    works for you. */
 
@@ -1044,10 +1044,9 @@ value i94addrl
 
 
 /* I94VISA - Visa codes collapsed into three categories:
-   1 = Business
-   2 = Pleasure
-   3 = Student
-*/
+   1 = Business 
+   2 = Pleasure 
+   3 = Student */
 
 
 /* COUNT - Used for summary statistics */
